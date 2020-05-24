@@ -112,7 +112,7 @@ const Toolbar = ({
     const contentStateWithEntity = contentState.createEntity(
       "media",
       "IMMUTABLE",
-      { src: "https://www.youtube.com/watch?v=p1PgNbgWSyY" }
+      { src: "https://www.youtube.com/watch?v=feUYwoLhE_4" }
     );
     const entityKey = contentStateWithEntity.getLastCreatedEntityKey();
     const newEditorState = EditorState.set(editorState, {
