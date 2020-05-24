@@ -131,6 +131,7 @@ const Toolbar = ({
         return (
           <StyledButton
             isActive={isActiveBlock(button.block)}
+            key={button.label}
             onMouseDown={(e) => {
               e.preventDefault();
               applyBlockType(button.block);
